@@ -7,6 +7,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqldb://root:root@127.0.0.1:330
 def hello_world():  # put application's code here
     print('hello world')
     print('Mathematical')
+    print('123456789')
     return 'Hello World! !!'
 
 
