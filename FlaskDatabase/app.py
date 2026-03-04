@@ -31,8 +31,7 @@ db = SQLAlchemy(app=app,model_class=Base)
 @app.route('/')
 def hello_world():  # put application's code here
     print('hello world')
-    print('Mathe')
-    print('123456789')
+    print('123456Mathematical')
     return 'Hello World! !!'
 
 
